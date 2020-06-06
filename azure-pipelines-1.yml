@@ -20,7 +20,7 @@ stages:
 
 - stage:
   jobs: 
-  - job: Deploy to Dev
+  - job: DeploytoDev
 
     steps:
     - script: echo Deploy to Dev
@@ -28,7 +28,7 @@ stages:
 
 - stage:
   jobs: 
-  - job: Deploy to QA
+  - job: DeploytoQA
 
     steps:
     - script: echo Deploy to QA
